@@ -6,8 +6,8 @@ app = Flask(__name__)
 CORS(app)  # Permite que o frontend se comunique com esse backend
 
 # Caminhos dos certificados (ajuste se necessário)
-CERTIFICADO = r"\pix-flask-app\certs\certificado.pem"
-CHAVE_PRIVADA = r"\pix-flask-app\certs\chave_privada.pem"
+CERTIFICADO = "certs/certificado.pem"
+CHAVE_PRIVADA = "certs/chave_privada.pem"
 
 # Credenciais da API Gerencianet
 CLIENT_ID = "Client_Id_dcd423aa91e1001ff05c9ff579b34f54c8cc141d"
